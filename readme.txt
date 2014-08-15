@@ -30,8 +30,6 @@ Using **[FAG id=xx]** shortcode, you can publish Flickr Album Gallery into any P
 * Add Unlimited Images into Gallery
 * Multilingual Translation Ready
 
-**Check Live Demo:** [Flickr Album Gallery](http://demo.weblizar.com/flickr-album-gallery)
-
 == Installation ==
 
 1. Upload the entire **flickr-album-gallery** folder to the **/wp-content/plugins/** directory.
