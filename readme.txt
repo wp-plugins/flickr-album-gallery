@@ -19,6 +19,11 @@ Flickr Album Gallery plugin is such a easy to use and fully documented ready plu
 
 Using **[FAG id=xx]** shortcode, you can publish Flickr Album Gallery into any Page or Post.
 
+Flickr Album Gallery Plugin: **[Documentation](http://weblizar.com/flickr-album-gallery-plugin-documentation/)**
+
+Flickr Album Gallery Plugin: **[Live Demo](http://demo.weblizar.com/flickr-album-gallery-free-plugin/)**
+
+
 **Features**
 
 * Responsive Design
