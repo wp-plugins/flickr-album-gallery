@@ -13,15 +13,16 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Flickr Album Gallery is an awesome gallery plugin to display your Flickr Albums on your WordPress blog.
 
 == Description ==
+
 Flickr Album Gallery is based on Flickr JS API. Use plugin to display all your Flickr Albums on your Wordpress Blog Site. Flickr Album Gallery is based on Flickr JS API. Use plugin to display all your Flickr Albums on your Wordpress Blog Site. You can use your own Flickr API and Flickr Album ID to publish Flickr Albums on your WordPress Blog website.
 
 Flickr Album Gallery plugin is such a easy to use and fully documented ready plugin.
 
 Using **[FAG id=xx]** shortcode, you can publish Flickr Album Gallery into any Page or Post.
 
-Flickr Album Gallery Plugin: **[Documentation](http://weblizar.com/flickr-album-gallery-plugin-documentation/)**
+Flickr Album Gallery Plugin: [Documentation](http://weblizar.com/flickr-album-gallery-plugin-documentation/)
 
-Flickr Album Gallery Plugin: **[Live Demo](http://demo.weblizar.com/flickr-album-gallery-free-plugin/)**
+Flickr Album Gallery Plugin: [Live Demo](http://demo.weblizar.com/flickr-album-gallery-free-plugin/)
 
 
 **Features**
