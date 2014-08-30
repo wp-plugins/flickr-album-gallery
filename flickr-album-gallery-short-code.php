@@ -35,6 +35,15 @@ function FlickerAlbumGalleryShortCode( $Id ) {
 							max-height: 45px;
 							box-shadow:  none;
 						}
+						.weblizar-flickr-div{
+						padding:10px;
+						}
+						@media (max-width: 786px){
+							.col-md-3 {
+								width:49.9%;
+								float:left;
+							}
+						}
 						</style>
 						<script type="text/javascript">
 						jQuery(function() {
