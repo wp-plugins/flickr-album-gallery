@@ -5,8 +5,8 @@ Contributors: weblizar
 Donate link: http://www.weblizar.com/
 Tags: flickr, gallery, album, photo, flickr gallery, flickr image, flickr album, flickr photo, photo gallery, touch slider, lightbox, flickr photostream, flickr lightbox, photo album, flickr lightbox gallery, flickr slide show, slideshow, flickr image, flickr rss, flickr widget, flickr shortcode, flickr api, flickr js, wordpress flickr album, wordpress flickr plugin, flickr portfolio, portfolio, flickr thumbnail, thumbnail, flickr screenshots, responsive flickr gallery, responsive gallery, flickr slider, grid, photostream, flickr gallery set, flickr photo set
 Requires at least: 3.3
-Tested up to: 3.9.2
-Stable tag: 0.1
+Tested up to: 4.0
+Stable tag: 0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -28,13 +28,51 @@ Flickr Album Gallery Plugin: [Live Demo](http://demo.weblizar.com/flickr-album-g
 **Features**
 
 * Responsive Design
-* Touch Image Slider
-* Lightbox Image Slider Preview
+* Touch Image Sliders
+* Light Box Image Slider Preview
 * Simple & Very Easy Admin Gallery Dashboard
 * All Major & Latest Browser Compatible - Google Chrome, Mozilla Firefox, Internet Explorer
 * All Major Device Compatible - iPhone, iPad, Tablets, PC
 * Add Unlimited Images into Gallery
 * Multilingual Translation Ready
+
+**Flickr Album Gallery Pro Features**
+
+* Responsive Design Layout
+* Admin Gallery Dashboard
+* 8 Types of Animation Effect
+* 6 Types of Gallery design layout
+* Unlimited Colors Scheme With Opacity Effects
+* 8 Types Of Light Box Sliders
+
+   * Nivo Box
+   * Photo Box
+   * Pretty Photo
+   * Window Box
+   * Smooth Box
+   * Swipe Box
+   * Ion Box
+   * Fancy Box
+
+* Each Gallery Unique Shortcode [FAGP id=xx]
+* Individual Gallery Setting Panel
+* Retina Ready
+* All Major Browser Compatible - Google Chrome, Mozilla Firefox, Internet Explorer
+* Multilingual Translation Ready
+* And many more..
+
+**Try All 8 Types Light Box Slider Demo in Pro Plugin**
+
+* Ion Box [Demo](http://demo.weblizar.com/flickr-album-gallery-pro/gallery-with-ion-box-slider/)
+* Fancy Box [Demo](http://demo.weblizar.com/flickr-album-gallery-pro/gallery-with-fancy-box-slider/)
+* Photo Box [Demo](http://demo.weblizar.com/flickr-album-gallery-pro/gallery-with-photo-box-slider/)
+* Pretty Photo [Demo](http://demo.weblizar.com/flickr-album-gallery-pro/gallery-with-pretty-photo-box-slider/)
+* Window Box [Demo](http://demo.weblizar.com/flickr-album-gallery-pro/gallery-with-window-box-slider/)
+* Smooth Box [Demo](http://demo.weblizar.com/flickr-album-gallery-pro/gallery-with-smooth-box-slider/)
+* Swipe Box [Demo](http://demo.weblizar.com/flickr-album-gallery-pro/gallery-with-swipe-box-slider/)
+* Nivo Box [Demo](http://demo.weblizar.com/flickr-album-gallery-pro/gallery-with-nivo-light-box-slider/)
+
+**Upgrade To:** [Flickr Album Gallery Pro](http://weblizar.com/amember/signup/flickr-album-gallery)
 
 == Installation ==
 
@@ -62,6 +100,10 @@ For more information, see [Weblizar](http://wwww.weblizar.com/).
 * New: Gallery Title Settings
 * New: Images Preview Light Box
 * New: Gallery Display Shortcode [FAG id=xx]
+
+= 0.2 =
+* Update: Few Settings Modified
+* Fix: Gallery Layout Fixed
 
 
 == Upgrade Notice ==

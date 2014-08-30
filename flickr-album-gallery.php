@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Flickr Album Gallery
- * Version: 0.1
+ * Version: 0.2
  * Description: Flickr Album Gallery fetch all your flickr account photo albums and you can publish individual or all flickr albums on your WrodPress site.
  * Author: Weblizar
  * Author URI: http://weblizar.com/plugins/flickr-gallery/
