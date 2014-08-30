@@ -209,8 +209,7 @@ textarea { width: 50%; height: auto; }
 .active{display:block; }
 .deactive{display:none !important; }
 .weblizar_spacer{height:110px;}
-a.btn-primary,a.btn-inverse{text-decoration:none;}
-a.btn-primary:hover,a.btn-inverse:hover{color:#fff;}
+
 .loading { display:none;}
 
 /*************** Option panel tab icons css *****************/

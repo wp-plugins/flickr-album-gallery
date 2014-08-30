@@ -18,7 +18,7 @@
             photosetId: "",
             errorText: "Error generating gallery.",
             loadingSpeed: 38,
-            photosLimit: 30
+            photosLimit: 100
         },
         apiUrl = 'https://api.flickr.com/services/rest/',
         photos = [];
@@ -53,8 +53,8 @@
         this._printGallery = function(photos) {
             var element = this.element.find('.gallery-container');
             $.each(photos, function(key, photo) {
-                var img = $('<img>', { 'class': 'thumb img-thumbnail img-responsive', src: photo.thumbnail });
-                element.append($('<div></div>', { 'class': ' col-md-4 col-sm-6 col-center' })
+                var img = $('<img>', { 'class': 'thumb img-thumbnail flickr-img-responsive', src: photo.thumbnail });
+                element.append($('<div></div>', { 'class': ' col-md-3 col-sm-4 col-center weblizar-flickr-div' })
                     .append($('<a></a>', { 'class': '', href: photo.href, 'data-gallery': '' }).hide()
                         .append(img)));
             });
@@ -75,7 +75,7 @@
                 }
 
                 photos[photoset.id][key] = {
-                    thumbnail: 'http://farm' + photo.farm + '.static.flickr.com/' + photo.server + '/' + photo.id + '_' + photo.secret + '_m.jpg',
+                    thumbnail: 'http://farm' + photo.farm + '.static.flickr.com/' + photo.server + '/' + photo.id + '_' + photo.secret + '_q.jpg',
                     href: 'http://farm' + photo.farm + '.static.flickr.com/' + photo.server + '/' + photo.id + '_' + photo.secret + '_b.jpg'
                 };
             });

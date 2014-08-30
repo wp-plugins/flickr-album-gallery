@@ -24,7 +24,27 @@ function FlickerAlbumGalleryShortCode( $Id ) {
 						$FAG_Album_ID = $FAG_Album['fag_album_id'];
 						$FAG_Show_Title = $FAG_Album['fag_show_title'];
 						?>
-
+						<style>
+						.flickr-img-responsive {
+							width:100% !important;
+							height:auto !important;
+							display:block !important;
+						}
+						.LoadingImg img {
+							max-width: 45px;
+							max-height: 45px;
+							box-shadow:  none;
+						}
+						.weblizar-flickr-div{
+						padding:10px;
+						}
+						@media (max-width: 786px){
+							.col-md-3 {
+								width:49.9%;
+								float:left;
+							}
+						}
+						</style>
 						<script type="text/javascript">
 						jQuery(function() {
 							// Engage gallery.
@@ -42,7 +62,7 @@ function FlickerAlbumGalleryShortCode( $Id ) {
 						<div class="gallery<?php echo $ID; ?>">
 							<div class="row">
 								<div class="col-xs-12 spinner-wrapper">
-									<div class="spinner"></div>
+									<div class="LoadingImg"><img src="<?php echo FAG_PLUGIN_URL."img/loading.gif"; ?>" /></div>
 								</div>
 								<div align="center" class="gallery-container"></div>
 							</div>
@@ -93,7 +113,7 @@ function FlickerAlbumGalleryShortCode( $Id ) {
 			});
 			</script>
 			
-			<div align="left" style="font-size: small; margin-top:10px;">
+			<div align="center" style="font-size: small; margin-bottom:20px; margin-top:25px; width:100%; float: left;">
 				Flickr Album Gallery Powered By: <a href="http://www.weblizar.com/" target="_blank">Weblizar</a>
 			</div>
 			<?php

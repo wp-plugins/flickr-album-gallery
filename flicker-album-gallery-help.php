@@ -1,7 +1,7 @@
 <div class="wrap" id="weblizar_wrap" >		
 	<div id="content_wrap">			
 		<div class="weblizar-header" >
-			<h2><span><?php _e('Need Help About Flickr Album Gallery ?', FAG_TEXT_DOMAIN); ?></span></h2>			
+			<h2><span>Get Flicker Album Gallery Pro</span></h2>			
 			<div class="weblizar-submenu-links" id="weblizar-submenu-links">
 				<ul>
 					<li class=""> <div class="dashicons dashicons-format-chat" > </div> <a href="http://wordpress.org/plugins/flickr-album-gallery/" target="_blank" title="Support Forum"><?php _e('Support Forum', FAG_TEXT_DOMAIN); ?></a></li>
@@ -12,8 +12,8 @@
 		<div id="content">
 			<div id="options_tabs" class="ui-tabs ">
 				<ul class="options_tabs ui-tabs-nav" role="tablist" id="nav">					
-					<li class="active"><a href="#" id="general"><div class="dashicons dashicons-admin-home"></div><?php _e('Flickr Album Gallery', FAG_TEXT_DOMAIN);?></a></li>					
-					<li ><a href="#" id="ourproduct" style="background-color: #141414;color: #F8F3F3;" ><div class="dashicons dashicons-plus"></div><?php _e('Our Products', FAG_TEXT_DOMAIN);?></a></li>
+					<li class="active"><a href="#" id="ourproduct" style="background-color: #141414;color: #F8F3F3;" ><div class="dashicons dashicons-plus"></div><?php _e('Upgrade To Pro', FAG_TEXT_DOMAIN);?></a></li>
+					<li ><a href="#" id="general"><div class="dashicons dashicons-format-chat"></div><?php _e('Need Help', FAG_TEXT_DOMAIN);?></a></li>					
 				</ul>					
 				<?php require_once('help-body.php'); ?>
 			</div>		

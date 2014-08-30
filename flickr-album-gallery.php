@@ -4,8 +4,8 @@
  * Version: 0.2
  * Description: Flickr Album Gallery fetch all your flickr account photo albums and you can publish individual or all flickr albums on your WrodPress site.
  * Author: Weblizar
- * Author URI: http://weblizar.com/plugins/flickr-gallery/
- * Plugin URI: http://weblizar.com/plugins/flickr-gallery/
+ * Author URI: http://weblizar.com/plugins/flickr-album-gallery-pro/
+ * Plugin URI: http://weblizar.com/plugins/flickr-album-gallery-pro/
  */
  
 /**
@@ -113,15 +113,82 @@ define("FAG_PLUGIN_URL", plugin_dir_url(__FILE__));
 	public function Add_all_fag_meta_boxes() {
 		add_meta_box( __('Add Images', FAG_TEXT_DOMAIN), __('Add Images', FAG_TEXT_DOMAIN), array(&$this, 'fag_meta_box_form_function'), 'fa_gallery', 'normal', 'low' );
 		add_meta_box ( __('Flickr Album Gallery Shortcode', FAG_TEXT_DOMAIN), __('Flickr Album Gallery Shortcode', FAG_TEXT_DOMAIN), array(&$this, 'fag_shortcode_meta_box_form_function'), 'fa_gallery', 'side', 'low');
+		add_meta_box(__('Rate Us', FAG_TEXT_DOMAIN) , __('Rate Us', FAG_TEXT_DOMAIN), array($this, 'Rate_us_meta_box_function'), 'fa_gallery', 'side', 'low');
+		add_meta_box(__('Upgrade To Pro Version', FAG_TEXT_DOMAIN) , __('Upgrade To Pro Version', FAG_TEXT_DOMAIN), array($this, 'Upgrade_to_meta_box_function'), 'fa_gallery', 'side', 'low');
+		add_meta_box(__('Pro Features', FAG_TEXT_DOMAIN) , __('Pro Features', FAG_TEXT_DOMAIN), array($this, 'Pro_freatures_meta_box_function'), 'fa_gallery', 'side', 'low');
     }
 	
 	/**
-	 * Shortcode Box
+	 * Rate Us Meta Box
+	 */
+	public function Rate_us_meta_box_function() { ?>
+		<style>
+		.fag-rate-us span.dashicons{
+			width: 30px;
+			height: 30px;
+		}
+		.fag-rate-us span.dashicons-star-filled:before {
+			content: "\f155";
+			font-size: 30px;
+		}
+		</style>
+		<div align="center">
+			<p>Please Review & Rate Us On WordPress</p>
+			<a class="upgrade-to-pro-demo .fag-rate-us" style=" text-decoration: none; height: 40px; width: 40px;" href="http://wordpress.org/support/view/plugin-reviews/flickr-album-gallery" target="_blank">
+				<span class="dashicons dashicons-star-filled"></span>
+				<span class="dashicons dashicons-star-filled"></span>
+				<span class="dashicons dashicons-star-filled"></span>
+				<span class="dashicons dashicons-star-filled"></span>
+				<span class="dashicons dashicons-star-filled"></span>
+			</a>
+		</div>
+		<div class="upgrade-to-pro-demo" style="text-align:center;margin-bottom:10px;margin-top:10px;">
+			<a href="http://wordpress.org/support/view/plugin-reviews/flickr-album-gallery" target="_blank" class="button button-primary button-hero">RATE US</a>
+		</div>
+		<?php
+	}
+	
+	/**
+	 * Shortcode Meta Box
 	 */
 	public function fag_shortcode_meta_box_form_function() { ?>
 		<p><?php _e("Use below shortcode in any Page/Post to publish your Flickr Album Gallery", FAG_TEXT_DOMAIN);?></p>
 		<input readonly="readonly" type="text" value="<?php echo "[FAG id=".get_the_ID()."]"; ?>"> <?php
 	}
+	
+	/**
+	 * Upgrade To Meta Box
+	 */
+	public function Upgrade_to_meta_box_function() { ?>
+		<div class="upgrade-to-pro-demo" style="text-align:center;margin-bottom:10px;margin-top:10px;">
+			<a href="http://demo.weblizar.com/flickr-album-gallery-pro/" target="_blank" class="button button-primary button-hero">View Live Demo</a>
+		</div>
+		<div class="upgrade-to-pro" style="text-align:center;margin-bottom:10px;">
+			<a href="http://weblizar.com/plugins/flickr-album-gallery-pro/" target="_blank" class="button button-primary button-hero">Upgrade To Pro</a>
+		</div><?php
+	}
+	
+	/**
+	 * Pro Features Meta Box
+	 */
+	public function Pro_freatures_meta_box_function() { ?>
+		<ul>
+			<li class="plan-feature">Responsive Design</li>
+			<li class="plan-feature">Gallery Layout</li>
+			<li class="plan-feature">Unlimited Hover Color</li>
+			<li class="plan-feature">10 Types of Hover Color Opacity</li>
+			<li class="plan-feature">All Gallery Shortcode</li>
+			<li class="plan-feature">Each Gallery Unique Shortcode</li>
+			<li class="plan-feature">8 Hover Animation</li>
+			<li class="plan-feature">6 Gallery Design Layout</li>
+			<li class="plan-feature">8 Light Box Slider</li>
+			<li class="plan-feature">Shortcode Button For Post & Page</li>
+			<li class="plan-feature">Unique Settings For Each Gallery</li>
+			<li class="plan-feature">Hide/Show Gallery Title</li>
+		</ul>
+		<?php
+	}
+	
 	
 	/**
 	 * Gallery API Key & Album ID Form
@@ -232,7 +299,7 @@ require_once("flickr-album-gallery-short-code.php");
  */
 add_action('admin_menu' , 'FAG_DOC_Menu_Function');
 function FAG_DOC_Menu_Function() {
-	add_submenu_page('edit.php?post_type=fa_gallery', __('Need Help?', FAG_TEXT_DOMAIN), __('Need Help?', FAG_TEXT_DOMAIN), 'administrator', 'flickr-docs', 'FAG_DOC_Page_Function');
+	add_submenu_page('edit.php?post_type=fa_gallery', __('Upgrade To Pro', FAG_TEXT_DOMAIN), __('Upgrade To Pro', FAG_TEXT_DOMAIN), 'administrator', 'flickr-docs', 'FAG_DOC_Page_Function');
 }
 function FAG_DOC_Page_Function(){ 
 	wp_enqueue_script('bootstrap-min-js', FAG_PLUGIN_URL.'js/bootstrap.min.js');
@@ -243,6 +310,7 @@ function FAG_DOC_Page_Function(){
 	wp_enqueue_style('font-awesome-min-css', FAG_PLUGIN_URL.'css/font-awesome-latest/css/font-awesome.min.css');
 	wp_enqueue_style('Respo-pricing-table-css', FAG_PLUGIN_URL .'css/pricing-table-responsive.css');
 	wp_enqueue_style('pricing-table-css', FAG_PLUGIN_URL .'css/pricing-table.css');
+	wp_enqueue_style('fag-bootstrap-min-css', FAG_PLUGIN_URL.'css/bootstrap.min.css');
 	require_once("flicker-album-gallery-help.php");
 }
 ?>
