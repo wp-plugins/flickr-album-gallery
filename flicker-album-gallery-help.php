@@ -10,7 +10,7 @@
 			</div>			
 		</div>		
 		<div id="content">
-			<div id="options_tabs" class="ui-tabs ">
+			<div id="options_tabs" class="ui-tabs">
 				<ul class="options_tabs ui-tabs-nav" role="tablist" id="nav">					
 					<li class="active"><a href="#" id="ourproduct" style="background-color: #141414;color: #F8F3F3;" ><div class="dashicons dashicons-plus"></div><?php _e('Upgrade To Pro', FAG_TEXT_DOMAIN);?></a></li>
 					<li ><a href="#" id="general"><div class="dashicons dashicons-format-chat"></div><?php _e('Need Help', FAG_TEXT_DOMAIN);?></a></li>					

@@ -6,7 +6,7 @@ Donate link: http://www.weblizar.com/
 Tags: flickr, gallery, album, photo, flickr gallery, flickr image, flickr album, flickr photo, photo gallery, touch slider, lightbox, flickr photostream, flickr lightbox, photo album, flickr lightbox gallery, flickr slide show, slideshow, flickr image, flickr rss, flickr widget, flickr shortcode, flickr api, flickr js, wordpress flickr album, wordpress flickr plugin, flickr portfolio, portfolio, flickr thumbnail, thumbnail, flickr screenshots, responsive flickr gallery, responsive gallery, flickr slider, grid, photostream, flickr gallery set, flickr photo set
 Requires at least: 3.3
 Tested up to: 4.0
-Stable tag: 0.3
+Stable tag: 0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -94,16 +94,23 @@ Flickr Album Gallery Plugin: [Live Demo](http://demo.weblizar.com/flickr-album-g
 
 For more information, see [Weblizar](http://wwww.weblizar.com/).
 
+= 0.4 =
+* Remove unused css from bootstrap.css 
+* Compatible with WordPress 4.0.1 
+
+= 0.3 =
+* New: Help Setion Added
+
+= 0.2 =
+* Update: Few Settings Modified
+* Fix: Gallery Layout Fixed
+
 = 0.1 =
 * New: Add New Album Gallery
 * New: Preview Album Gallery In Page/Post
 * New: Gallery Title Settings
 * New: Images Preview Light Box
 * New: Gallery Display Shortcode [FAG id=xx]
-
-= 0.2 =
-* Update: Few Settings Modified
-* Fix: Gallery Layout Fixed
 
 
 == Upgrade Notice ==

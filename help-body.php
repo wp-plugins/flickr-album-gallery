@@ -11,141 +11,138 @@
 				  <a href="http://weblizar.com/plugins/flickr-album-gallery-pro/" target="_new" class="btn btn-danger btn-lg">Upgrade To Pro</a>
 				</div>
 			</div>
-
-		<hr>
+			<hr>
 		
-		<div class="col-md-4  demoftr "> 
-			<h2>Nivo Light Box</h2>
-			<div class="img-wrapper">
-				<div class="enigma_home_portfolio_showcase">
-					<img class="enigma_img_responsive ftr_img"  src="http://weblizar.com/wp-content/themes/home-theme/images/lightbox/nivo.jpg">
-					<div class="enigma_home_portfolio_showcase_overlay">
-						<div class="enigma_home_portfolio_showcase_overlay_inner ">
-							<div class="enigma_home_portfolio_showcase_icons">
-								<a title="Link" href="http://demo.weblizar.com/flickr-album-gallery-pro/gallery-with-nivo-light-box-slider/" target="_blank">Live Demo</a>
+			<div class="col-md-4  demoftr "> 
+				<h2>Nivo Light Box</h2>
+				<div class="img-wrapper">
+					<div class="enigma_home_portfolio_showcase">
+						<img class="enigma_img_responsive ftr_img"  src="http://weblizar.com/wp-content/themes/home-theme/images/lightbox/nivo.jpg">
+						<div class="enigma_home_portfolio_showcase_overlay">
+							<div class="enigma_home_portfolio_showcase_overlay_inner ">
+								<div class="enigma_home_portfolio_showcase_icons">
+									<a title="Link" href="http://demo.weblizar.com/flickr-album-gallery-pro/gallery-with-nivo-light-box-slider/" target="_blank">Live Demo</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+			<div class="col-md-4  demoftr "> 
+				<h2>Photo Box</h2>
+				<div class="img-wrapper">
+					<div class="enigma_home_portfolio_showcase">
+						<img class="enigma_img_responsive ftr_img"  src="http://weblizar.com/wp-content/themes/home-theme/images/lightbox/photobox.jpg">
+						<div class="enigma_home_portfolio_showcase_overlay">
+							<div class="enigma_home_portfolio_showcase_overlay_inner ">
+								<div class="enigma_home_portfolio_showcase_icons">
+									<a title="Link" href="http://demo.weblizar.com/flickr-album-gallery-pro/gallery-with-photo-box-slider/" target="_blank">Live Demo</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+			<div class="col-md-4  demoftr "> 
+				<h2>Pretty Photo</h2>
+				<div class="img-wrapper">
+					<div class="enigma_home_portfolio_showcase">
+						<img class="enigma_img_responsive ftr_img"  src="http://weblizar.com/wp-content/themes/home-theme/images/lightbox/prettyphoto.jpg">
+						<div class="enigma_home_portfolio_showcase_overlay">
+							<div class="enigma_home_portfolio_showcase_overlay_inner ">
+								<div class="enigma_home_portfolio_showcase_icons">
+									<a title="Link" href="http://demo.weblizar.com/flickr-album-gallery-pro/gallery-with-pretty-photo-box-slider/" target="_blank">Live Demo</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+			<div class="col-md-4  demoftr "> 
+				<h2>Window Box</h2>
+				<div class="img-wrapper">
+					<div class="enigma_home_portfolio_showcase">
+						<img class="enigma_img_responsive ftr_img"  src="http://weblizar.com/wp-content/themes/home-theme/images/lightbox/window.png">
+						<div class="enigma_home_portfolio_showcase_overlay">
+							<div class="enigma_home_portfolio_showcase_overlay_inner ">
+								<div class="enigma_home_portfolio_showcase_icons">
+									<a title="Link" href="http://demo.weblizar.com/flickr-album-gallery-pro/gallery-with-window-box-slider/" target="_blank">Live Demo</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+			<div class="col-md-4  demoftr "> 
+				<h2>Smooth Box</h2>
+				<div class="img-wrapper">
+					<div class="enigma_home_portfolio_showcase">
+						<img class="enigma_img_responsive ftr_img"  src="http://weblizar.com/wp-content/themes/home-theme/images/lightbox/smooth.png">
+						<div class="enigma_home_portfolio_showcase_overlay">
+							<div class="enigma_home_portfolio_showcase_overlay_inner ">
+								<div class="enigma_home_portfolio_showcase_icons">
+									<a title="Link" href="http://demo.weblizar.com/flickr-album-gallery-pro/gallery-with-smooth-box-slider/" target="_blank">Live Demo</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+			<div class="col-md-4  demoftr "> 
+				<h2>Swipe Box</h2>
+				<div class="img-wrapper">
+					<div class="enigma_home_portfolio_showcase">
+						<img class="enigma_img_responsive ftr_img"  src="http://weblizar.com/wp-content/themes/home-theme/images/lightbox/swipebox.jpg">
+						<div class="enigma_home_portfolio_showcase_overlay">
+							<div class="enigma_home_portfolio_showcase_overlay_inner ">
+								<div class="enigma_home_portfolio_showcase_icons">
+									<a title="Link" href="http://demo.weblizar.com/flickr-album-gallery-pro/gallery-with-swipe-box-slider/" target="_blank">Live Demo</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+			<div class="col-md-4  demoftr "> 
+				<h2>Ion Box</h2>
+				<div class="img-wrapper">
+					<div class="enigma_home_portfolio_showcase">
+						<img class="enigma_img_responsive ftr_img"  src="http://weblizar.com/wp-content/themes/home-theme/images/lightbox/ion.jpg">
+						<div class="enigma_home_portfolio_showcase_overlay">
+							<div class="enigma_home_portfolio_showcase_overlay_inner ">
+								<div class="enigma_home_portfolio_showcase_icons">
+									<a title="Link" href="http://demo.weblizar.com/flickr-album-gallery-pro/gallery-with-ion-box-slider/" target="_blank">Live Demo</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+			<div class="col-md-4  demoftr "> 
+				<h2>Fancy Box</h2>
+				<div class="img-wrapper">
+					<div class="enigma_home_portfolio_showcase">
+						<img class="enigma_img_responsive ftr_img"  src="http://weblizar.com/wp-content/themes/home-theme/images/lightbox/fancy.jpg">
+						<div class="enigma_home_portfolio_showcase_overlay">
+							<div class="enigma_home_portfolio_showcase_overlay_inner ">
+								<div class="enigma_home_portfolio_showcase_icons">
+									<a title="Link" href="http://demo.weblizar.com/flickr-album-gallery-pro/gallery-with-fancy-box-slider/" target="_blank">Live Demo</a>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		
-		<div class="col-md-4  demoftr "> 
-			<h2>Photo Box</h2>
-			<div class="img-wrapper">
-				<div class="enigma_home_portfolio_showcase">
-					<img class="enigma_img_responsive ftr_img"  src="http://weblizar.com/wp-content/themes/home-theme/images/lightbox/photobox.jpg">
-					<div class="enigma_home_portfolio_showcase_overlay">
-						<div class="enigma_home_portfolio_showcase_overlay_inner ">
-							<div class="enigma_home_portfolio_showcase_icons">
-								<a title="Link" href="http://demo.weblizar.com/flickr-album-gallery-pro/gallery-with-photo-box-slider/" target="_blank">Live Demo</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		
-		<div class="col-md-4  demoftr "> 
-			<h2>Pretty Photo</h2>
-			<div class="img-wrapper">
-				<div class="enigma_home_portfolio_showcase">
-					<img class="enigma_img_responsive ftr_img"  src="http://weblizar.com/wp-content/themes/home-theme/images/lightbox/prettyphoto.jpg">
-					<div class="enigma_home_portfolio_showcase_overlay">
-						<div class="enigma_home_portfolio_showcase_overlay_inner ">
-							<div class="enigma_home_portfolio_showcase_icons">
-								<a title="Link" href="http://demo.weblizar.com/flickr-album-gallery-pro/gallery-with-pretty-photo-box-slider/" target="_blank">Live Demo</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		
-		<div class="col-md-4  demoftr "> 
-			<h2>Window Box</h2>
-			<div class="img-wrapper">
-				<div class="enigma_home_portfolio_showcase">
-					<img class="enigma_img_responsive ftr_img"  src="http://weblizar.com/wp-content/themes/home-theme/images/lightbox/window.png">
-					<div class="enigma_home_portfolio_showcase_overlay">
-						<div class="enigma_home_portfolio_showcase_overlay_inner ">
-							<div class="enigma_home_portfolio_showcase_icons">
-								<a title="Link" href="http://demo.weblizar.com/flickr-album-gallery-pro/gallery-with-window-box-slider/" target="_blank">Live Demo</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		
-		<div class="col-md-4  demoftr "> 
-			<h2>Smooth Box</h2>
-			<div class="img-wrapper">
-				<div class="enigma_home_portfolio_showcase">
-					<img class="enigma_img_responsive ftr_img"  src="http://weblizar.com/wp-content/themes/home-theme/images/lightbox/smooth.png">
-					<div class="enigma_home_portfolio_showcase_overlay">
-						<div class="enigma_home_portfolio_showcase_overlay_inner ">
-							<div class="enigma_home_portfolio_showcase_icons">
-								<a title="Link" href="http://demo.weblizar.com/flickr-album-gallery-pro/gallery-with-smooth-box-slider/" target="_blank">Live Demo</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		
-		<div class="col-md-4  demoftr "> 
-			<h2>Swipe Box</h2>
-			<div class="img-wrapper">
-				<div class="enigma_home_portfolio_showcase">
-					<img class="enigma_img_responsive ftr_img"  src="http://weblizar.com/wp-content/themes/home-theme/images/lightbox/swipebox.jpg">
-					<div class="enigma_home_portfolio_showcase_overlay">
-						<div class="enigma_home_portfolio_showcase_overlay_inner ">
-							<div class="enigma_home_portfolio_showcase_icons">
-								<a title="Link" href="http://demo.weblizar.com/flickr-album-gallery-pro/gallery-with-swipe-box-slider/" target="_blank">Live Demo</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		
-		<div class="col-md-4  demoftr "> 
-			<h2>Ion Box</h2>
-			<div class="img-wrapper">
-				<div class="enigma_home_portfolio_showcase">
-					<img class="enigma_img_responsive ftr_img"  src="http://weblizar.com/wp-content/themes/home-theme/images/lightbox/ion.jpg">
-					<div class="enigma_home_portfolio_showcase_overlay">
-						<div class="enigma_home_portfolio_showcase_overlay_inner ">
-							<div class="enigma_home_portfolio_showcase_icons">
-								<a title="Link" href="http://demo.weblizar.com/flickr-album-gallery-pro/gallery-with-ion-box-slider/" target="_blank">Live Demo</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		
-		<div class="col-md-4  demoftr "> 
-			<h2>Fancy Box</h2>
-			<div class="img-wrapper">
-				<div class="enigma_home_portfolio_showcase">
-					<img class="enigma_img_responsive ftr_img"  src="http://weblizar.com/wp-content/themes/home-theme/images/lightbox/fancy.jpg">
-					<div class="enigma_home_portfolio_showcase_overlay">
-						<div class="enigma_home_portfolio_showcase_overlay_inner ">
-							<div class="enigma_home_portfolio_showcase_icons">
-								<a title="Link" href="http://demo.weblizar.com/flickr-album-gallery-pro/gallery-with-fancy-box-slider/" target="_blank">Live Demo</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		
-	</div>
 
 	
-	<div>
 		<div class="row pricing-table pricing-three-column" style="margin-top: 10px;">
 			<div class="col-md-4">
 				<div class=" plan ap">
@@ -228,38 +225,34 @@
 					</ul>
 				</div>
 			</div>
-			
-			
-		</div>
-		<style>
-			.pricing-table .plan ul li.plan-feature {
-				padding: 8px !important;
-			}
-			.ap .plan-name {
-				background-color: #1E8CBE !important;
-			}
-			.bp .plan-name {
-				background-color: #1E8CBE !important;
-			}
-			.cp .plan-name {
-				background-color: #1E8CBE !important;
-			}
-			li {
-				font-size: larger !important;
-			}
+			<style>
+				.pricing-table .plan ul li.plan-feature {
+					padding: 8px !important;
+				}
+				.ap .plan-name {
+					background-color: #1E8CBE !important;
+				}
+				.bp .plan-name {
+					background-color: #1E8CBE !important;
+				}
+				.cp .plan-name {
+					background-color: #1E8CBE !important;
+				}
+				li {
+					font-size: larger !important;
+				}
 
-			.row-fluid .span4 {
-				width: 30.624% !important;
-			}
-			
-			ul li img {
+				.row-fluid .span4 {
+					width: 30.624% !important;
+				}
 				
-			}
-		</style>
+				ul li img {
+					
+				}
+			</style>
+		</div>
 	</div>
-
 </div>
-
 <!---------------- Need Help Tab  --------------->
 <div class="block ui-tabs-panel deactive" id="option-general">	
 	<div class="row">
@@ -267,11 +260,15 @@
 			<div id="heading">
 				<h2><?php _e('Flickr Album Gallery','weblizar');?></h2>
 			</div>	
-				<p>Flickr Album Gallery is an awesome gallery plugin to display your Flickr on your WordPress blog.</p>
-				<p>Flickr Album Gallery is based on Flickr JS API. Use plugin to display all your Flickr Albums on your WordPress Blog Site. Flickr Album Gallery is based on Flickr JS API. Use plugin to display all your Flickr Albums on your Wordpress Blog Site. You can use your own Flickr API and Flickr Album ID to publish Flickr Albums on your WordPress Blog website.</p>
-				<p>Flickr Album Gallery plugin is such a easy to use and fully documented ready plugin.</p>
-				<p>Using <strong>[FAG id=xx]</strong> shortcode, you can publish Flickr Album Gallery into any Page or Post.</p>
-				<strong>Read Flickr Album Gallery Full Documentation <a href="http://www.weblizar.com/flickr-album-gallery-plugin-documentation/" target="_blank">Here</a></strong>
+			<p>Flickr Album Gallery is an awesome gallery plugin to display your Flickr on your WordPress blog.</p>
+			<br>
+			<p>Flickr Album Gallery is based on Flickr JS API. Use plugin to display all your Flickr Albums on your WordPress Blog Site. Flickr Album Gallery is based on Flickr JS API. Use plugin to display all your Flickr Albums on your Wordpress Blog Site. You can use your own Flickr API and Flickr Album ID to publish Flickr Albums on your WordPress Blog website.</p>
+			<br>
+			<p>Flickr Album Gallery plugin is such a easy to use and fully documented ready plugin.</p>
+			<br>
+			<p>Using <strong>[FAG id=xx]</strong> shortcode, you can publish Flickr Album Gallery into any Page or Post.</p>
+			<br>
+			<h4>Read Flickr Album Gallery Full Documentation <a href="http://www.weblizar.com/flickr-album-gallery-plugin-documentation/" target="_blank">Here</a></h4>
 		</div>
 	</div>
 </div>
