@@ -1,0 +1,101 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Flicker Album Gallery\n"
+"POT-Creation-Date: 2014-08-15 21:09+0530\n"
+"PO-Revision-Date: 2014-08-15 21:09+0530\n"
+"Last-Translator: Weblizar <lizarweb@gmail.com>\n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.5\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: flicker-album-gallery-help.php:4
+msgid "Need Help About Flickr Album Gallery ?"
+msgstr ""
+
+#: flicker-album-gallery-help.php:7
+msgid "Support Forum"
+msgstr ""
+
+#: flicker-album-gallery-help.php:8
+msgid "View Changelog"
+msgstr ""
+
+#: flicker-album-gallery-help.php:15 help-body.php:5
+msgid "Flickr Album Gallery"
+msgstr ""
+
+#: flicker-album-gallery-help.php:16
+msgid "Our Products"
+msgstr ""
+
+#: flickr-album-gallery-short-code.php:75
+msgid "Previous"
+msgstr ""
+
+#: flickr-album-gallery-short-code.php:78
+msgid "Next"
+msgstr ""
+
+#: flickr-album-gallery-short-code.php:101
+msgid "Sorry! Invalid Flicker Album Shortcode Embedded"
+msgstr ""
+
+#: flickr-album-gallery.php:62
+msgid "All Galleries"
+msgstr ""
+
+#: flickr-album-gallery.php:94
+msgid "Gallery"
+msgstr ""
+
+#: flickr-album-gallery.php:95
+msgid "Album Gallery Shortcode"
+msgstr ""
+
+#: flickr-album-gallery.php:96
+msgid "Date"
+msgstr ""
+
+#: flickr-album-gallery.php:114
+msgid "Add Images"
+msgstr ""
+
+#: flickr-album-gallery.php:115
+msgid "Flickr Album Gallery Shortcode"
+msgstr ""
+
+#: flickr-album-gallery.php:122
+msgid ""
+"Use below shortcode in any Page/Post to publish your Flickr Album Gallery"
+msgstr ""
+
+#: flickr-album-gallery.php:153
+msgid "Enter Flickr API Key"
+msgstr ""
+
+#: flickr-album-gallery.php:154
+msgid "Get Your API Key"
+msgstr ""
+
+#: flickr-album-gallery.php:156
+msgid "Enter Flickr Album ID"
+msgstr ""
+
+#: flickr-album-gallery.php:157
+msgid "Get Your Album ID"
+msgstr ""
+
+#: flickr-album-gallery.php:161
+msgid "Show Gallery Title"
+msgstr ""
+
+#: flickr-album-gallery.php:235
+msgid "Need Help?"
+msgstr ""
