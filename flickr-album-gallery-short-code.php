@@ -120,6 +120,7 @@ function FlickerAlbumGalleryShortCode( $Id ) {
 	} else {
 		echo "<div align='center' class='alert alert-danger'>".__("Sorry! Invalid Flicker Album Shortcode Embedded", FAG_TEXT_DOMAIN )."</div>";
 	}
+	wp_reset_query();
 	return ob_get_clean();
 }//end of shortcode function
 ?>

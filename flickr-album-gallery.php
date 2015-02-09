@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Flickr Album Gallery
- * Version: 0.5
+ * Version: 0.6
  * Description: Flickr Album Gallery fetch all your flickr account photo albums and you can publish individual or all flickr albums on your WrodPress site.
  * Author: Weblizar
  * Author URI: http://weblizar.com/plugins/flickr-album-gallery-pro/
@@ -22,17 +22,10 @@ define("FAG_PLUGIN_URL", plugin_dir_url(__FILE__));
 	public function __construct() {
 		
 		if (is_admin()) {
-		
 			add_action('plugins_loaded', array(&$this, 'FAG_Translate'), 1);
-			
-			// 2
 			add_action('init', array(&$this, 'FlickrAlbumGallery_CPT'), 1);
-			
-			// 3
 			add_action('add_meta_boxes', array(&$this, 'Add_all_fag_meta_boxes'));
             add_action('admin_init', array(&$this, 'Add_all_fag_meta_boxes'), 1);
-			
-			// 4
 			add_action('save_post', array(&$this, 'Save_fag_meta_box_save'), 9, 1);
 		}
 	}
@@ -41,7 +34,7 @@ define("FAG_PLUGIN_URL", plugin_dir_url(__FILE__));
 	 * Translate Plugin
 	 */
 	public function FAG_Translate() {
-	 load_plugin_textdomain('weblizar_fag', FALSE, dirname( plugin_basename(__FILE__)).'/lang/' );
+		load_plugin_textdomain('weblizar_fag', FALSE, dirname( plugin_basename(__FILE__)).'/lang/' );
 	}
 	
 	
