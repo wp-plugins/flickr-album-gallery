@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Flickr Album Gallery
- * Version: 0.6
+ * Version: 0.7
  * Description: Flickr Album Gallery fetch all your flickr account photo albums and you can publish individual or all flickr albums on your WrodPress site.
  * Author: Weblizar
  * Author URI: http://weblizar.com/plugins/flickr-album-gallery-pro/
@@ -263,7 +263,8 @@ function FlickrAlbumGalleryShortCodeDetect() {
     $Pattern = get_shortcode_regex();
 
     foreach ($Posts as $Post) {
-        if (   preg_match_all( '/'. $Pattern .'/s', $Post->post_content, $Matches ) && array_key_exists( 2, $Matches ) && in_array( 'FAG', $Matches[2] ) ) {
+        //if (   preg_match_all( '/'. $Pattern .'/s', $Post->post_content, $Matches ) && array_key_exists( 2, $Matches ) && in_array( 'FAG', $Matches[2] ) ) {
+		if ( strpos($Post->post_content, 'FAG' ) ) {
 			//JS
 			wp_enqueue_script('jquery');
 			wp_enqueue_script( 'fag-bootstrap-min-js', plugins_url('js/bootstrap.min.js', __FILE__ ), array('jquery'), false, true );

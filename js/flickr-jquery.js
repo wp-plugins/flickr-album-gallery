@@ -79,7 +79,6 @@
                     href: 'http://farm' + photo.farm + '.static.flickr.com/' + photo.server + '/' + photo.id + '_' + photo.secret + '_b.jpg',
 					title: photo.title
                 };
-				console.log(photo);
             });
 
             this._printGallery(photos[photoset.id]);

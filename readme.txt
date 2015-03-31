@@ -5,8 +5,8 @@ Contributors: weblizar
 Donate link: http://www.weblizar.com/
 Tags: flickr, gallery, album, photo, flickr gallery, flickr image, flickr album, flickr photo, photo gallery, touch slider, lightbox, flickr photostream, flickr lightbox, photo album, flickr lightbox gallery, flickr slide show, slideshow, flickr image, flickr rss, flickr widget, flickr shortcode, flickr api, flickr js, wordpress flickr album, wordpress flickr plugin, flickr portfolio, portfolio, flickr thumbnail, thumbnail, flickr screenshots, responsive flickr gallery, responsive gallery, flickr slider, grid, photostream, flickr gallery set, flickr photo set
 Requires at least: 3.3
-Tested up to: 4.1
-Stable tag: 0.6
+Tested up to: 4.1.1
+Stable tag: 0.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -93,6 +93,10 @@ Flickr Album Gallery Plugin: [Live Demo](http://demo.weblizar.com/flickr-album-g
 == Changelog ==
 
 For more information, see [Weblizar](http://wwww.weblizar.com/).
+= 0.7 =
+* Fix: Package size reduced
+* Fix: Sortcode detect function modified
+
 = 0.6 =
 * Fix: wp_reset_query() call fixed
 * New: Image Title now visialbe in lightbox preview.
