@@ -4,9 +4,9 @@ Donate link: http://www.weblizar.com/=== Lightbox Slider ===
 Contributors: weblizar
 Donate link: http://www.weblizar.com/
 Tags: flickr, gallery, album, photo, flickr gallery, flickr image, flickr album, flickr photo, photo gallery, touch slider, lightbox, flickr photostream, flickr lightbox, photo album, flickr lightbox gallery, flickr slide show, slideshow, flickr image, flickr rss, flickr widget, flickr shortcode, flickr api, flickr js, wordpress flickr album, wordpress flickr plugin, flickr portfolio, portfolio, flickr thumbnail, thumbnail, flickr screenshots, responsive flickr gallery, responsive gallery, flickr slider, grid, photostream, flickr gallery set, flickr photo set
-Requires at least: 3.3
-Tested up to: 4.1.1
-Stable tag: 0.7
+Requires at least: 3.5
+Tested up to: 4.2
+Stable tag: 0.8
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -20,9 +20,9 @@ Flickr Album Gallery plugin is such a easy to use and fully documented ready plu
 
 Using **[FAG id=xx]** shortcode, you can publish Flickr Album Gallery into any Page or Post.
 
-Flickr Album Gallery Plugin: [Documentation](http://weblizar.com/flickr-album-gallery-plugin-documentation/)
+**Flickr Album Gallery Plugin:** [Documentation](http://weblizar.com/flickr-album-gallery-plugin-documentation/)
 
-Flickr Album Gallery Plugin: [Live Demo](http://demo.weblizar.com/flickr-album-gallery-free-plugin/)
+**Flickr Album Gallery Plugin:** [Live Demo](http://demo.weblizar.com/flickr-album-gallery-free-plugin/)
 
 
 **Features**
@@ -44,16 +44,14 @@ Flickr Album Gallery Plugin: [Live Demo](http://demo.weblizar.com/flickr-album-g
 * 6 Types of Gallery design layout
 * Unlimited Colors Scheme With Opacity Effects
 * 8 Types Of Light Box Sliders
-
-   * Nivo Box
-   * Photo Box
-   * Pretty Photo
-   * Window Box
-   * Smooth Box
-   * Swipe Box
-   * Ion Box
-   * Fancy Box
-
+* Nivo Box
+* Photo Box
+* Pretty Photo
+* Window Box
+* Smooth Box
+* Swipe Box
+* Ion Box
+* Fancy Box
 * Each Gallery Unique Shortcode [FAGP id=xx]
 * Individual Gallery Setting Panel
 * Retina Ready
@@ -89,10 +87,12 @@ Flickr Album Gallery Plugin: [Live Demo](http://demo.weblizar.com/flickr-album-g
 5. Flickr Album Gallery Shortcode
 6. Flickr Album Gallery Preview On Page
 
-
 == Changelog ==
 
 For more information, see [Weblizar](http://wwww.weblizar.com/).
+= 0.8 22-Apr-2015 =
+* New: WordPress 4.2 Compatible
+
 = 0.7 =
 * Fix: Package size reduced
 * Fix: Sortcode detect function modified
@@ -121,7 +121,6 @@ For more information, see [Weblizar](http://wwww.weblizar.com/).
 * New: Gallery Title Settings
 * New: Images Preview Light Box
 * New: Gallery Display Shortcode [FAG id=xx]
-
 
 == Upgrade Notice ==
 
