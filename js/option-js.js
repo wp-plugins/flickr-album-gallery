@@ -1,46 +1,46 @@
 /*Admin options pannal data value*/
-	function weblizar_option_data_save(name) 
-	{ 	
-		var weblizar_settings_save= "#weblizar_settings_save_"+name;
-		var weblizar_theme_options = "#weblizar_theme_options_"+name;
-		var weblizar_settings_save_success = weblizar_settings_save+"_success";
-		var loding_image ="#weblizar_loding_"+name;
-		var weblizar_loding_image = loding_image +"_image";			
-		
-		jQuery(weblizar_loding_image).show();
-		jQuery(weblizar_settings_save).val("1");        
-	    jQuery.ajax({
-				url:'themes.php?page=weblizar',
-				type:'post',
-				data : jQuery(weblizar_theme_options).serialize(),
-				 success : function(data)
-				 {  jQuery(weblizar_loding_image).fadeOut();						
-					jQuery(weblizar_settings_save_success).show();
-					jQuery(weblizar_settings_save_success).fadeOut(5000);
-				}			
-		});
-	}	
+function weblizar_option_data_save(name) 
+{ 	
+	var weblizar_settings_save= "#weblizar_settings_save_"+name;
+	var weblizar_theme_options = "#weblizar_theme_options_"+name;
+	var weblizar_settings_save_success = weblizar_settings_save+"_success";
+	var loding_image ="#weblizar_loding_"+name;
+	var weblizar_loding_image = loding_image +"_image";			
+	
+	jQuery(weblizar_loding_image).show();
+	jQuery(weblizar_settings_save).val("1");        
+	jQuery.ajax({
+			url:'themes.php?page=weblizar',
+			type:'post',
+			data : jQuery(weblizar_theme_options).serialize(),
+			 success : function(data)
+			 {  jQuery(weblizar_loding_image).fadeOut();						
+				jQuery(weblizar_settings_save_success).show();
+				jQuery(weblizar_settings_save_success).fadeOut(5000);
+			}			
+	});
+}	
 /*Admin options value reset */
-	function weblizar_option_data_reset(name) 
-	{  
-		var r=confirm("Do you want reset your theme setting!")
-		if (r==true)
-		{		var weblizar_settings_save= "#weblizar_settings_save_"+name;
-				var weblizar_theme_options = "#weblizar_theme_options_"+name;
-				var weblizar_settings_save_reset = weblizar_settings_save+"_reset";				
-				jQuery(weblizar_settings_save).val("2");       
-				jQuery.ajax({
-				   url:'themes.php?page=weblizar',
-				   type:'post',
-				   data : jQuery(weblizar_theme_options).serialize(),
-				   success : function(data){
-					jQuery(weblizar_settings_save_reset).show();
-					jQuery(weblizar_settings_save_reset).fadeOut(5000);
-				}			
-			});
-		} else  {
-		alert("Cancel! reset theme setting process");  }		
-	}
+function weblizar_option_data_reset(name) 
+{  
+	var r=confirm("Do you want reset your theme setting!")
+	if (r==true)
+	{		var weblizar_settings_save= "#weblizar_settings_save_"+name;
+			var weblizar_theme_options = "#weblizar_theme_options_"+name;
+			var weblizar_settings_save_reset = weblizar_settings_save+"_reset";				
+			jQuery(weblizar_settings_save).val("2");       
+			jQuery.ajax({
+			   url:'themes.php?page=weblizar',
+			   type:'post',
+			   data : jQuery(weblizar_theme_options).serialize(),
+			   success : function(data){
+				jQuery(weblizar_settings_save_reset).show();
+				jQuery(weblizar_settings_save_reset).fadeOut(5000);
+			}			
+		});
+	} else  {
+	alert("Cancel! reset theme setting process");  }		
+}
 // js to active the link of option pannel
  jQuery(document).ready(function() {
 	jQuery('ul li.active ul').slideDown();

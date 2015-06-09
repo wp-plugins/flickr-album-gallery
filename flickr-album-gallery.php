@@ -1,8 +1,8 @@
 <?php
 /**
  * Plugin Name: Flickr Album Gallery
- * Version: 0.8
- * Description: Flickr Album Gallery fetch all your flickr account photo albums and you can publish individual or all flickr albums on your WrodPress site.
+ * Version: 0.9
+ * Description: Simply easy to publish your Flickr photo albums on your WrodPress blog site
  * Author: Weblizar
  * Author URI: http://weblizar.com/plugins/flickr-album-gallery-pro/
  * Plugin URI: http://weblizar.com/plugins/flickr-album-gallery-pro/
@@ -20,7 +20,6 @@ define("FAG_PLUGIN_URL", plugin_dir_url(__FILE__));
  class FlickrAlbumGallery {
 
 	public function __construct() {
-		
 		if (is_admin()) {
 			add_action('plugins_loaded', array(&$this, 'FAG_Translate'), 1);
 			add_action('init', array(&$this, 'FlickrAlbumGallery_CPT'), 1);
@@ -36,7 +35,6 @@ define("FAG_PLUGIN_URL", plugin_dir_url(__FILE__));
 	public function FAG_Translate() {
 		load_plugin_textdomain('weblizar_fag', FALSE, dirname( plugin_basename(__FILE__)).'/lang/' );
 	}
-	
 	
 	// 2 - Register Flickr Album Custom Post Type
 	public function FlickrAlbumGallery_CPT() {
@@ -76,7 +74,6 @@ define("FAG_PLUGIN_URL", plugin_dir_url(__FILE__));
 		);
 
         register_post_type( 'fa_gallery', $args );
-		
         add_filter( 'manage_edit-fa_gallery', array(&$this, 'fa_gallery_columns' )) ;
         add_action( 'manage_fa_gallery_posts_custom_column', array(&$this, 'fa_gallery_manage_columns' ), 10, 2 );
 	}
@@ -245,14 +242,10 @@ define("FAG_PLUGIN_URL", plugin_dir_url(__FILE__));
 			update_post_meta($PostID, 'fag_settings', serialize($FAGArray));
 		}
 	}
-	
-	
-
 }// end of class
 
 global $FlickrAlbumGallery;
 $FlickrAlbumGallery = new FlickrAlbumGallery();
-
 
 /**
  * Flickr Album Gallery Shortcode Detect Function
@@ -262,9 +255,9 @@ function FlickrAlbumGalleryShortCodeDetect() {
     $Posts = $wp_query->posts;
     $Pattern = get_shortcode_regex();
 
-    foreach ($Posts as $Post) {
+    //foreach ($Posts as $Post) {
         //if (   preg_match_all( '/'. $Pattern .'/s', $Post->post_content, $Matches ) && array_key_exists( 2, $Matches ) && in_array( 'FAG', $Matches[2] ) ) {
-		if ( strpos($Post->post_content, 'FAG' ) ) {
+		//if ( strpos($Post->post_content, 'FAG' ) ) {
 			//JS
 			wp_enqueue_script('jquery');
 			wp_enqueue_script( 'fag-bootstrap-min-js', plugins_url('js/bootstrap.min.js', __FILE__ ), array('jquery'), false, true );
@@ -276,13 +269,12 @@ function FlickrAlbumGalleryShortCodeDetect() {
 			//CSS
 			wp_enqueue_style('fag-bootstrap-min-css', FAG_PLUGIN_URL.'css/bootstrap.min.css');
 			wp_enqueue_style('fag-blueimp-gallery-min-css', FAG_PLUGIN_URL.'css/blueimp-gallery.min.css');
-			wp_enqueue_style('fag-bootstrap-image-gallery-min-css', FAG_PLUGIN_URL.'css/bootstrap-image-gallery.min.css');
 			wp_enqueue_style('fag-site-css', FAG_PLUGIN_URL.'css/site.css');
 			wp_enqueue_style('fag-font-awesome-latest', FAG_PLUGIN_URL.'css/font-awesome-latest/css/font-awesome.min.css');
 			
-            break;
-        } //end of if
-    } //end of foreach
+            //break;
+        //} //end of if
+    //} //end of foreach
 }
 add_action( 'wp', 'FlickrAlbumGalleryShortCodeDetect' );
 
@@ -307,7 +299,7 @@ function FAG_DOC_Page_Function(){
 	wp_enqueue_style('font-awesome-min-css', FAG_PLUGIN_URL.'css/font-awesome-latest/css/font-awesome.min.css');
 	wp_enqueue_style('Respo-pricing-table-css', FAG_PLUGIN_URL .'css/pricing-table-responsive.css');
 	wp_enqueue_style('pricing-table-css', FAG_PLUGIN_URL .'css/pricing-table.css');
-	wp_enqueue_style('fag-bootstrap-min-css', FAG_PLUGIN_URL.'css/bootstrap.min.css');
+	wp_enqueue_style('fag-bootstrap-min-css', FAG_PLUGIN_URL.'css/bootstrap.dashboard.css');
 	require_once("flicker-album-gallery-help.php");
 }
 ?>

@@ -44,6 +44,9 @@ function FlickerAlbumGalleryShortCode( $Id ) {
 								float:left;
 							}
 						}
+						.play-pause {
+							display: none !important;
+						}
 						</style>
 						<script type="text/javascript">
 						jQuery(function() {
