@@ -1,12 +1,12 @@
 === Flickr Album Gallery ===
 Contributors: weblizar
-Donate link: http://www.weblizar.com/=== Lightbox Slider ===
+Donate link: https://weblizar.com/
 Contributors: weblizar
-Donate link: http://www.weblizar.com/
+Donate link: https://weblizar.com/
 Tags: flickr, gallery, album, photo, flickr gallery, flickr image, flickr album, flickr photo, photo gallery, touch slider, lightbox, flickr photostream, flickr lightbox, photo album, flickr lightbox gallery, flickr slide show, slideshow, flickr image, flickr rss, flickr widget, flickr shortcode, flickr api, flickr js, wordpress flickr album, wordpress flickr plugin, flickr portfolio, portfolio, flickr thumbnail, thumbnail, flickr screenshots, responsive flickr gallery, responsive gallery, flickr slider, grid, photostream, flickr gallery set, flickr photo set
 Requires at least: 3.5
 Tested up to: 4.2.2
-Stable tag: 0.9
+Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -90,6 +90,10 @@ Using **[FAG id=xx]** shortcode, you can publish Flickr Album Gallery into any P
 == Changelog ==
 
 For more information, see [Weblizar](http://wwww.weblizar.com/).
+
+= 1.0 26 June 2015 =
+* Fix: Gallery overlay issue
+
 = 0.9 09 June 2015 =
 * Fix: Minimising Bootstrap CSS
 
