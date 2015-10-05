@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Flickr Album Gallery
- * Version: 1.1
+ * Version: 1.2
  * Description: Simply easy to publish your Flickr photo albums on your WrodPress blog site
  * Author: Weblizar
  * Author URI: https://weblizar.com/plugins/flickr-album-gallery-pro/
