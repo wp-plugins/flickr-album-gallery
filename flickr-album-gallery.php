@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Flickr Album Gallery
- * Version: 1.2
+ * Version: 1.3
  * Description: Simply easy to publish your Flickr photo albums on your WrodPress blog site
  * Author: Weblizar
  * Author URI: https://weblizar.com/plugins/flickr-album-gallery-pro/
@@ -41,16 +41,16 @@ define("FAG_PLUGIN_URL", plugin_dir_url(__FILE__));
 		$labels = array(
 			'name' => _x( 'Flickr Album Gallery', 'fa_gallery' ),
 			'singular_name' => _x( 'Flickr Album Gallery', 'fa_gallery' ),
-			'add_new' => _x( 'Add New Gallery', 'fa_gallery' ),
-			'add_new_item' => _x( 'Add New Gallery', 'fa_gallery' ),
-			'edit_item' => _x( 'Edit Photo Gallery', 'fa_gallery' ),
-			'new_item' => _x( 'New Gallery', 'fa_gallery' ),
-			'view_item' => _x( 'View Gallery', 'fa_gallery' ),
-			'search_items' => _x( 'Search Galleries', 'fa_gallery' ),
-			'not_found' => _x( 'No galleries found', 'fa_gallery' ),
-			'not_found_in_trash' => _x( 'No galleries found in Trash', 'fa_gallery' ),
-			'parent_item_colon' => _x( 'Parent Gallery:', 'fa_gallery' ),
-			'all_items' => __( 'All Galleries', 'fa_gallery' ),
+			'add_new' => __( 'Add New Gallery', 'fa_gallery' ),
+			'add_new_item' => __( 'Add New Gallery', 'fa_gallery' ),
+			'edit_item' => __( 'Edit Gallery', 'fa_gallery' ),
+			'new_item' => __( 'New Album Gallery', 'fa_gallery' ),
+			'view_item' => __( 'View Album Gallery', 'fa_gallery' ),
+			'search_items' => __( 'Search Album Galleries', 'fa_gallery' ),
+			'not_found' => __( 'No Album Galleries Found', 'fa_gallery' ),
+			'not_found_in_trash' => __( 'No Album Galleries Found in Trash', 'fa_gallery' ),
+			'parent_item_colon' => __( 'Parent Album Gallery:', 'fa_gallery' ),
+			'all_items' => __( 'All Album Galleries', 'fa_gallery' ),
 			'menu_name' => _x( 'Flickr Album Gallery', 'fa_gallery' ),
 		);
 
@@ -103,9 +103,9 @@ define("FAG_PLUGIN_URL", plugin_dir_url(__FILE__));
 	public function Add_all_fag_meta_boxes() {
 		add_meta_box( __('Add Images', FAG_TEXT_DOMAIN), __('Add Images', FAG_TEXT_DOMAIN), array(&$this, 'fag_meta_box_form_function'), 'fa_gallery', 'normal', 'low' );
 		add_meta_box ( __('Flickr Album Gallery Shortcode', FAG_TEXT_DOMAIN), __('Flickr Album Gallery Shortcode', FAG_TEXT_DOMAIN), array(&$this, 'fag_shortcode_meta_box_form_function'), 'fa_gallery', 'side', 'low');
-		add_meta_box(__('Rate Us', FAG_TEXT_DOMAIN) , __('Rate Us', FAG_TEXT_DOMAIN), array($this, 'Rate_us_meta_box_function'), 'fa_gallery', 'side', 'low');
-		add_meta_box(__('Upgrade To Pro Version', FAG_TEXT_DOMAIN) , __('Upgrade To Pro Version', FAG_TEXT_DOMAIN), array($this, 'Upgrade_to_meta_box_function'), 'fa_gallery', 'side', 'low');
-		add_meta_box(__('Pro Features', FAG_TEXT_DOMAIN) , __('Pro Features', FAG_TEXT_DOMAIN), array($this, 'Pro_freatures_meta_box_function'), 'fa_gallery', 'side', 'low');
+		add_meta_box('Rate Us' , 'Rate Us', array($this, 'Rate_us_meta_box_function'), 'fa_gallery', 'side', 'low');
+		add_meta_box('Upgrade To Pro Version' , 'Upgrade To Pro Version', array($this, 'Upgrade_to_meta_box_function'), 'fa_gallery', 'side', 'low');
+		add_meta_box('Pro Features', 'Pro Features', array($this, 'Pro_freatures_meta_box_function'), 'fa_gallery', 'side', 'low');
     }
 	
 	/**
@@ -288,9 +288,9 @@ require_once("flickr-album-gallery-short-code.php");
  */
 add_action('admin_menu' , 'FAG_DOC_Menu_Function');
 function FAG_DOC_Menu_Function() {
-	add_submenu_page('edit.php?post_type=fa_gallery', __('Upgrade To Pro', FAG_TEXT_DOMAIN), __('Upgrade To Pro', FAG_TEXT_DOMAIN), 'administrator', 'flickr-docs', 'FAG_DOC_Page_Function');
+	add_submenu_page('edit.php?post_type=fa_gallery', 'Upgrade To Pro', 'Upgrade To Pro', 'administrator', 'flickr-docs', 'FAG_DOC_Page_Function');
 }
-function FAG_DOC_Page_Function(){ 
+function FAG_DOC_Page_Function(){
 	wp_enqueue_script('bootstrap-min-js', FAG_PLUGIN_URL.'js/bootstrap.min.js');
 	wp_enqueue_script('weblizar-tab-js', FAG_PLUGIN_URL .'js/option-js.js',array('jquery', 'media-upload', 'jquery-ui-sortable'));
 	wp_enqueue_style('weblizar-option-style-css', FAG_PLUGIN_URL .'css/weblizar-option-style.css');

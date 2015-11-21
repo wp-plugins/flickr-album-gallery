@@ -7,7 +7,6 @@
 			<div class="plan-name" style="padding-bottom:40px; text-align: center;float:left;width:100%">
 				<div class="purchase_btn_div" style="margin-top:20px;text-align: center;">
 				  <a  style= "margin-right:10px;" href="http://demo.weblizar.com/flickr-album-gallery-pro/" target="_new" class="btn btn-primary btn-lg">View Live Demo</a>
-				  <!--<a style= "margin-right:10px;" href="http://weblizar.com/lightbox-slider-pro/" target="_new" class="btn btn-success btn-lg">Try Before Buy</a>-->
 				  <a href="http://weblizar.com/plugins/flickr-album-gallery-pro/" target="_new" class="btn btn-danger btn-lg">Upgrade To Pro</a>
 				</div>
 			</div>
@@ -253,12 +252,59 @@
 		</div>
 	</div>
 </div>
+
+<!---------------- Premium Product Tab  --------------->
+<div class="block ui-tabs-panel deactive" id="option-premium-product">	
+	<div class="row-fluid pricing-table pricing-three-column">
+		<div class="plan-name centre"> 
+			<a style="margin-bottom:10px;textt-align:center" target="_new" href="http://weblizar.com"><img  src="http://weblizar.com/wp-content/themes/home-theme/images/weblizar2.png" /></a>
+		</div>	
+		<div class="plan-name">
+			<h2>Weblizar Responsive WordPress Theme</h2>
+			<h6>Get The Premium, And Create your website Beautifully</h6>
+		</div>
+		<div>
+			<div class="col-lg-6">
+				<h2>Premium Themes</h2><hr>
+				<ol id="weblizar_product">
+					<li><a target="_new" href="http://weblizar.com/themes/enigma-premium/">Enigma</a></li>
+					<li><a target="_new" href="http://weblizar.com/themes/weblizar-premium-theme/">Weblizar</a></li>					
+					<li><a target="_new" href="http://weblizar.com/themes/guardian-premium-theme/">Guardian</a></li>
+					<li><a target="_new" href="http://weblizar.com/plugins/green-lantern-premium-theme/">Green Lantern</a></li>
+					<li><a target="_new" href="https://weblizar.com/themes/creative-premium-theme/">Creative</a></li>
+					<li><a target="_new" href="https://weblizar.com/themes/incredible-premium-theme/">Incredible</a></li>
+				</ol>
+			</div>
+			<div class="col-lg-6">
+				<h2>Premium Plugins</h2><hr>
+				<ol id="weblizar_product">
+					<li><a target="_new" href="http://weblizar.com/ultimate-responsive-image-slider-pro/">Ultimate Responsive Image Slider</a></li>
+					<li><a target="_new" href="https://weblizar.com/plugins/photo-video-link-gallery-pro/">Photo Video Link Gallery Pro</a></li>
+					<li><a target="_new" href="http://weblizar.com/plugins/responsive-photo-gallery-pro//">Responsive Photo Gallery</a></li>
+					<li><a target="_new" href="http://weblizar.com/lightbox-slider-pro/">Lightbox Slider</a></li>
+					<li><a target="_new" href="http://weblizar.com/plugins/flickr-album-gallery-pro/">Flickr Album Gallery</a></li>
+					<li><a target="_new" href="https://weblizar.com/plugins/instagram-gallery-pro/">Instagram Gallery Pro</a></li>
+					<li><a target="_new" href="https://weblizar.com/plugins/gallery-pro/">Gallery Pro</a></li>					
+				</ol>
+			</div>
+		</div>	
+	</div>											
+	<div class="plan-name centre"> 
+		<div class="purchase_btn_div">
+			<div class="section container" id="product_decs">
+				<h3 align="center">Note: More details to click on Weblizar Products site link are below given view site button.</h3>	
+			</div>
+			<a href="http://www.weblizar.com" target="_new" class="btn btn-primary btn-lg dmobtn">View Site</a>		
+		</div>
+	</div>
+</div>
+
 <!---------------- Need Help Tab  --------------->
 <div class="block ui-tabs-panel deactive" id="option-general">	
 	<div class="row">
 		<div class="col-md-10">
 			<div id="heading">
-				<h2><?php _e('Flickr Album Gallery','weblizar');?></h2>
+				<h2><?php _e('Flickr Album Gallery','weblizar_fag');?></h2>
 			</div>	
 			<p>Flickr Album Gallery is an awesome gallery plugin to display your Flickr on your WordPress blog.</p>
 			<br>

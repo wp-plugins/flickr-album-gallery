@@ -5,8 +5,8 @@ Contributors: weblizar
 Donate link: https://weblizar.com/
 Tags: flickr, gallery, album, photo, flickr gallery, flickr image, flickr album, flickr photo, photo gallery, touch slider, lightbox, flickr photostream, flickr lightbox, photo album, flickr lightbox gallery, flickr slide show, slideshow, flickr image, flickr rss, flickr widget, flickr shortcode, flickr api, flickr js, wordpress flickr album, wordpress flickr plugin, flickr portfolio, portfolio, flickr thumbnail, thumbnail, flickr screenshots, responsive flickr gallery, responsive gallery, flickr slider, grid, photostream, flickr gallery set, flickr photo set
 Requires at least: 3.5
-Tested up to: 4.3.1
-Stable tag: 1.2
+Tested up to: 4.4
+Stable tag: 1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -90,6 +90,10 @@ Using **[FAG id=xx]** shortcode, you can publish Flickr Album Gallery into any P
 == Changelog ==
 
 For more information, see [Weblizar](http://wwww.weblizar.com/).
+
+= 1.3 21 Nov 2015 =
+* Latest WordPress 4.4 Compatibility Check
+* Russian Translation added in 1.3
 
 = 1.2 05 Oct 2015 =
 * Compatibility Check
